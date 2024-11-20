@@ -8,7 +8,6 @@ import time
 
 T = time.time()
 
-# 假设我们有三个点的坐标序列，这里只是示例，你需要替换成你的实际坐标数据
 df = pd.read_csv('santi_距离反比.csv')
 df = df.iloc[:len(df)//30]
 df = df.iloc[::3]
